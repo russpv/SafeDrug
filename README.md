@@ -3,7 +3,7 @@ Deep learning replication study on patient medication prediction.
 [Paper repo](https://github.com/ycq091044/SafeDrug)
 
 
-BibTex Citation
+BibTex Citation of source paper
 ---
 ```
 @inproceedings{yang2021safedrug,
