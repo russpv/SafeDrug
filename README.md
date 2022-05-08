@@ -27,9 +27,11 @@ Obtain permission to download the patient history MIMIC3 csv files:
 - procedures_ICD.csv
 
 Obtain drug code mapping files from the paper repo
-- asdf
-- asdf
-- asdf
+- ndc2atc_level4.csv [https://github.com/sjy1203/GAMENet](https://github.com/sjy1203/GAMENet), RXCUI to ATC (MIMIC)
+- drug-atc.csv [https://github.com/sjy1203/GAMENet](https://github.com/sjy1203/GAMENet), CID to ATC (side-effects)
+- ndc2rxnorm_mapping.csv [https://github.com/sjy1203/GAMENet](https://github.com/sjy1203/GAMENet), rxnorm to RXCUI (MIMIC)
+- drugbank_drugs_info.csv [Paper repo](https://github.com/ycq091044/SafeDrug), ATC to SMILES molecule strings
+- drug-DDI.csv: [Paper repo](https://github.com/ycq091044/SafeDrug), side-effect pair tables in CID
 
 Preprocessing code
 ---
