@@ -35,7 +35,8 @@ Obtain drug code mapping files from the paper repo
 
 Preprocessing code
 ---
-Run notebook titled ...
+Run notebook titled `process_data.ipynb` for data replication attempt  
+Run notebook titled `process_data_paper.ipynb` for data as per the paper repo
 
 Training and Evaluation code
 ---
