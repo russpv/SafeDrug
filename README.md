@@ -16,7 +16,30 @@ BibTex Citation of source paper
 ```
 Table of results
 ---
-asdf
+On as-is data processing from paper repo:  
+
+| Model         | DDI    | Jaccard | PRAUC  |       F1-score | Avg # of Meds |
+|---------------|--------|---------|--------|----------------|---------------|
+| LR            | 0.0776 | 0.4892  | 0.648  | 0.7576         | 17.1273       |
+| RETAIN        | 0.0813 | 0.4521  | 0.6157 | 0.7549         | 15.5979       |
+| RETAINrev     | 0.0851 | 0.4469  | 0.6109 | 0.7541         | 15.2285       |
+| GAMENet       | 0.0588 | 0.7582  | 0.8574 | 0.9348         | 19.3785       |
+| GAMENetP      | 0.0149 | 0.236   | 0.3738 | 0.7815         | 4.9307        |
+| SafeDrugclone | 0.062  | 0.5091  | 0.6655 | 0.7626         | 20.6382       |
+| SafeDrug      | 0.0688 | 0.525   | 0.6795 | 0.7689         | 21.8901       |
+
+
+On data filtered by top-40 side-effects instead of bottom-40, see `process_data.ipynb`:
+
+| Model         | DDI    | Jaccard | PRAUC  |       F1-score | Avg # of Meds |
+|---------------|--------|---------|--------|----------------|---------------|
+| LR            | 0.778  | 0.4894  | 0.6483 | 0.7579         | 17.146        |
+| RETAIN        | 0.7838 | 0.4521  | 0.6157 | 0.7549         | 15.5979       |
+| RETAINrev     | 0.7694 | 0.4473  | 0.6113 | 0.7535         | 15.117        |
+| GAMENet       | 0.1859 | 0.2387  | 0.3778 | 0.7837         | 4.8137        |
+| GAMENetP      | 0.7392 | 0.3813  | 0.5456 | 0.6569         | 10.6871       |
+| SafeDrugclone | 0.102  | 0.1721  | 0.2896 | 0.6149         | 5.517         |
+| SafeDrug      | 0.3542 | 0.2392  | 0.3789 | 0.7088         | 5.7149        |
 
 
 Data download
